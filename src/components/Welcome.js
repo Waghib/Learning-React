@@ -7,3 +7,10 @@ class Welcome extends Component{
 }
 
 export default Welcome;
+
+// Class Component
+// 1. More feature rich
+// 2. Maintain their own private data - state
+// 3. Complex UI logic
+// 4. Provide lifecycle hooks
+// 5. Stateful/Smart/Container
