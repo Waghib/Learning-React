@@ -3,14 +3,14 @@ import React, {Component} from 'react';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
-import Hello from './components/Hello';
-
+// import Hello from './components/Hello';
+import Message from './components/Message';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <Greet name="Waghib Ahmad" heroName="batman">
+        {/* <Greet name="Waghib Ahmad" heroName="batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Bruce" heroName="superman"/>
@@ -19,7 +19,9 @@ class App extends Component {
 
 
         <Welcome name="Diana" heroName="Wonder Woman"/>
-        <Welcome name="Waghib Ahmad" heroName="batman"/>
+        <Welcome name="Waghib Ahmad" heroName="batman"/> */}
+
+        <Message/>
 
         {/* <Hello/> */}
       </div>
