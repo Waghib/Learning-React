@@ -10,12 +10,25 @@ class Counter extends Component {
     }
 
     increment() { 
-        this.setState({
-            count: this.state.count + 1
-        }, () => {
-            console.log('Callback value', this.state.count)
+        // this.setState({
+        //     count: this.state.count + 1
+        // }, () => {
+        //     console.log('Callback value', this.state.count)
         
-        })
+        // })
+
+        this.setState((prevState, props) => ({
+            count: prevState.count + 1
+        }))
+        console.log(this.state.count)
+    }
+
+    incrementFive() {
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
     }
 
   render() {
@@ -25,7 +38,7 @@ class Counter extends Component {
         <div>
             Count - {this.state.count}
         </div>
-        <button onClick={() => this.increment()}>Increment</button>
+        <button onClick={() => this.incrementFive()}>Increment</button>
     </div>
 
 
@@ -34,3 +47,8 @@ class Counter extends Component {
 }
 
 export default Counter
+
+// setState
+// always make use of the setState and never modify the state directly
+// code has to be executed after the state has been updated? Place that code in the callback function which is the second argument to the setState method
+// when you have to update state based on the previous state value, pass in a function as an argument instead of the regular object
