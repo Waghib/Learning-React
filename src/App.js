@@ -11,19 +11,19 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        {/* <Greet name="Waghib Ahmad" heroName="batman">
+        <Greet name="Waghib Ahmad" heroName="batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Bruce" heroName="superman"/>
-        <button>Action</button>
-        <Greet name="Clark"/>
+        {/* <button>Action</button> */}
+        {/* <Greet name="Clark"/> */}
 
 
         <Welcome name="Diana" heroName="Wonder Woman"/>
-        <Welcome name="Waghib Ahmad" heroName="batman"/> */}
+        <Welcome name="Waghib Ahmad" heroName="batman"/>
 
         {/* <Message/> */}
-        <Counter/>
+        {/* <Counter/> */}
 
         {/* <Hello/> */}
       </div>
