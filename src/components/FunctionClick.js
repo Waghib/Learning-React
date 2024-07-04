@@ -5,7 +5,7 @@ function FunctionClick() {
     function clickHandler(){
         console.log('Button clicked')
     }
-
+ 
   return (
     <div>
         {/* Event handler is a function not a function call */}
@@ -14,4 +14,4 @@ function FunctionClick() {
   )
 }
 
-export default FunctionClick
+export default FunctionClick 
