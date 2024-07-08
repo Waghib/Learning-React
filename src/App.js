@@ -14,9 +14,9 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
-import './appStyles.css'
-import styles from './appStles.module.css'
-import Form from './components/Form'
+import './appStyles.css';
+import styles from './appStles.module.css';
+import Form from './components/Form';
 import LifecycleA from './LifecycleA';
 
 class App extends Component {
@@ -53,7 +53,7 @@ class App extends Component {
 
         {/* <Form/> */}
         <LifecycleA/>
-
+        
 
       </div>
     );
