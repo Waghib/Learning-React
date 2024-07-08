@@ -62,3 +62,9 @@ class Form extends Component {
 }
 
 export default Form
+
+// life cycle methods
+// Mounting :- When an instance of a component is being created and inserted into the DOM
+// Updating :- When a component is being re-rendered as a result of changes to either its props or state
+// Unmounting :- When a component is being removed from the DOM
+// Error Handling :- When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
