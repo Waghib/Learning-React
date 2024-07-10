@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
-import FragmentDemo from './FragmentDemo';
-import Table from './Table';
+import PureComp from './PureComp';
+import ParentComp from './ParentComp';
+
 
 class App extends Component {
   render(){
     return (
-      <div className="App">
-        {/* <FragmentDemo/> */}
-        <Table/>
+      <div className="App"> 
+        {/* <PureComp /> */}
+        <ParentComp/>
       </div>
     );
   }
